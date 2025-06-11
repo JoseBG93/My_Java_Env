@@ -12,8 +12,9 @@ public class Main {
         int hugeNumber = 1000;
         System.out.println(age);
         boolean isActive = false;
-        char course = 'A'; // We must use a single comma (' '), not double (" ").
+        char course = 'A'; // We must use a single commas (' '), not doubles (" ").
         System.out.println(isActive);
+        // Typing "sout" allows to call 'System.out.println' function directly. It's a snippet (shortcut).
         System.out.println(course);
     }
 }
