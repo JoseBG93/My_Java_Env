@@ -1,4 +1,6 @@
-package Files.src;// String is the most important reference data type. By using it, we can create text within our apps.
+package com.myjavaenv;
+
+// String is the most important reference data type. By using it, we can create text within our apps.
 
 public class strings {
     public static void main(String[] args) {

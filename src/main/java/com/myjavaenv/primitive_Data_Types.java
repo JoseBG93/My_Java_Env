@@ -4,7 +4,7 @@
 // --> Boolean: true, false.
 // --> char (any single letter).
 
-package Files.src;
+package com.myjavaenv;
 
 public class primitive_Data_Types {
     public static void main(String[] args) {
@@ -16,5 +16,6 @@ public class primitive_Data_Types {
         System.out.println(isActive);
         // Typing "sout" allows to call 'System.out.println' function directly. It's a snippet (shortcut).
         System.out.println(course);
+        System.out.println(hugeNumber);
     }
 }
