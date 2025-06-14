@@ -1,4 +1,4 @@
-package com.myjavaenv;
+package com.myjavaenv; // This package is used to organize our code. It is necessary to write it at the beginning of the file.
 
 // Simple Java program demonstrating array operations
 import java.util.Arrays;
@@ -16,3 +16,4 @@ public class ArrayOperations {
         System.out.println(Arrays.toString(numbers));
     }
 }
+
