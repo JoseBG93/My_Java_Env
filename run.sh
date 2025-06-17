@@ -1,19 +1,26 @@
 #!/bin/bash
 
-# Check if a file name was provided
+# Función para compilar y ejecutar un archivo Java
+run_java_file() {
+    local file_path=$1
+    local class_name=$(basename "$file_path" .java)
+    
+    echo "Compilando $file_path..."
+    javac "$file_path"
+    
+    if [ $? -eq 0 ]; then
+        echo "Ejecutando $class_name..."
+        java -cp "$(dirname "$file_path")" "$class_name"
+    else
+        echo "Error al compilar $file_path"
+    fi
+}
+
+# Verificar si se proporcionó un archivo como argumento
 if [ $# -eq 0 ]; then
-    echo "Usage: ./run.sh <filename>"
-    echo "Example: ./run.sh arrays"
+    echo "Uso: ./run.sh <ruta_del_archivo_java>"
+    echo "Ejemplo: ./run.sh src/test/java/Curso\ YouTube\ \'Holamundo\'/Clases/arrays.java"
     exit 1
 fi
 
-# Get the filename without extension
-filename=$1
-if [[ $filename == *.java ]]; then
-    filename=${filename%.java}
-fi
-
-# Compile and run
-cd src/main/java
-javac com/myjavaenv/$filename.java
-java com.myjavaenv.$filename 
+run_java_file "$1" 
