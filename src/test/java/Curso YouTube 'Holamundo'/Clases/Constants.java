@@ -1,5 +1,3 @@
-package com.myjavaenv;
-
 public class Constants {
     // Constants are declared using the 'final' keyword
     // Convention: Constants are typically written in UPPERCASE with underscores

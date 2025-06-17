@@ -1,5 +1,3 @@
-package com.myjavaenv;
-
 public class mathClass {
     public static void main(String[] args) {
         // Basic math operations using Math class

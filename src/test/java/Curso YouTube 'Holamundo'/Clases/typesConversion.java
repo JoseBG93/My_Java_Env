@@ -1,5 +1,3 @@
-package com.myjavaenv;
-
 public class typesConversion {
     public static void main(String[] args) {
         // Declaring variables of different types

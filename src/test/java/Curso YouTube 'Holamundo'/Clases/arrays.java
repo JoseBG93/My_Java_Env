@@ -1,5 +1,3 @@
-package com.myjavaenv;
-
 // Simple Java program demonstrating array operations
 import java.util.Arrays;
 

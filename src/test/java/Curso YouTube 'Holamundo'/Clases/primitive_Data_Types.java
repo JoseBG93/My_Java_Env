@@ -4,8 +4,6 @@
 // --> Boolean: true, false.
 // --> char (any single letter).
 
-package com.myjavaenv;
-
 public class primitive_Data_Types {
     public static void main(String[] args) {
         double age = 18.5f; // When there's a decimal number, we must use double or float, and type "f" after the value.

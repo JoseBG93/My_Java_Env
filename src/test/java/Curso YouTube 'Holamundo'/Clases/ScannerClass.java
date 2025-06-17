@@ -1,4 +1,3 @@
-package com.myjavaenv;
 import java.util.Scanner;
 
 public class ScannerClass {
@@ -19,4 +18,4 @@ public class ScannerClass {
 
         // We can also read other primitive types like int, long, float, double, boolean, char, etc., using the same method.
     }
-}
+} 

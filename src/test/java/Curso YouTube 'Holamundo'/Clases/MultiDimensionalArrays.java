@@ -1,11 +1,9 @@
-package com.myjavaenv;
-
 import java.util.Arrays;
 
 /**
  * Demonstrates various examples of multidimensional arrays in Java
  */
-class MultiDimensionalArrays {
+public class MultiDimensionalArrays {
     public static void main(String[] args) { // This is the main method, it is the entry point of the program. It must be public and static, so JVM can call it.
         // main method needs "(String[] args)" as a parameter, because it is the way to pass arguments to the program, even if we don't use them.
         // Example 0: 1D Array

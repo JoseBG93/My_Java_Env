@@ -1,5 +1,3 @@
-package com.myjavaenv;
-
 // Advanced array operations in Java
 import java.util.Arrays;
 

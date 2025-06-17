@@ -1,5 +1,3 @@
-package com.myjavaenv;
-
 import java.text.NumberFormat;
 import java.util.Locale;
 
