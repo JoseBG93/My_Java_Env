@@ -3,14 +3,58 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ScannerClass",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.ScannerClass",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "strings",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.strings",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "Constants",
+            "request": "launch",
+            "mainClass": "java.com.holamundocourse.classes.Constants",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "ArrayOperations",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.ArrayOperations",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "Arithmetic_Operations",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.Arithmetic_Operations",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "Constants",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.Constants",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
             "name": "Debug Current File",
             "request": "launch",
             "mainClass": "${fileBasenameNoExtension}",
             "projectName": "myJavaEnv",
             "cwd": "${workspaceFolder}",
-            "sourcePaths": ["${workspaceFolder}/src/test/java"],
             "vmArgs": "-Dfile.encoding=UTF-8",
-            "classPaths": ["${workspaceFolder}/src/test/java"]
+            "classPaths": [
+                "${workspaceFolder}/target/classes",
+                "${workspaceFolder}/src/test/java"
+            ]
         }
     ]
 } 
