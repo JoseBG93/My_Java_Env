@@ -3,6 +3,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "for_statement",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.for_statement",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "even_odd_numbers",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.Exercises.even_odd_numbers",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "Switch_function",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.Switch_function",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "logical_operators",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.logical_operators",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "comparison_operators",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.comparison_operators",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "var_function",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.var_function",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "reference_data_type",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.reference_data_type",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "calculator",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.Exercises.calculator",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
             "name": "ScannerClass",
             "request": "launch",
             "mainClass": "com.holamundocourse.classes.ScannerClass",
