@@ -3,6 +3,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainUser",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.MainUser",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "parametersWithArray",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.parametersWithArray",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "returningValues",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.returningValues",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "TestFromOtherPackage",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.otro_paquete.TestFromOtherPackage",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "TestMethodBasics",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.TestMethodBasics",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "method_basics",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.method_basics",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "option_selector",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.Exercises.option_selector",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "for_each",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.for_each",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "break_and_continue",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.break_and_continue",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "do_while",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.Exercises.do_while",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "while_function",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.Exercises.while_function",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
+            "name": "while_function",
+            "request": "launch",
+            "mainClass": "com.holamundocourse.classes.while_function",
+            "projectName": "myJavaEnv"
+        },
+        {
+            "type": "java",
             "name": "for_statement",
             "request": "launch",
             "mainClass": "com.holamundocourse.classes.for_statement",
