@@ -1,6 +1,6 @@
 package com.holamundocourse.classes;
 
-class User {
+public class User {
     // The following are the attributes of the User class
     static String tableName = "Users"; // static means that the variable is shared by all instances of the class. It must be accessed with the class name, not with the instance name.
     private double id = Math.random();
